@@ -4,6 +4,7 @@ from utils.datagenerator import generate_user
 from pages.homePage import HomePage
 
 
+
 def test_register_user(page):
 
     user = generate_user()
